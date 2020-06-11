@@ -4,4 +4,4 @@ One of the most important parts of coding are variables. Variables are things th
 `foo = 1`
 The variable in this case would be foo, and the value stored in foo is 1
 
-We will learn more about variables later on, but for now we only need this
+We will learn more about variables later on, but for now we only need this.

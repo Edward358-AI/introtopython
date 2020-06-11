@@ -1,4 +1,4 @@
-##Fancy Outputting
+# Fancy Outputting
 
 We've already learned the print statement. Just to jog your memory, it looks like this:
 
@@ -8,7 +8,7 @@ The print statement will print whatever is inside its parenthesis.
 
 However, what if we wanted to get fancy with it? Lets say you have a variable `name` which stores someones name. What if I wanted to print out 'Hello [value stored in `name`]. My name is pythonman.' For example, if `name` stored 'Chris', you'd print out 'Hello Chris. My name is pythonman.'
 
-# String Interpolation
+## String Interpolation
 
 The way we do this is with something called string interpolation. That's just fancy terminology for putting variable values in strings. Still using our name example, the way we'd put the `name` variable into the string we want to print out is:
 
@@ -18,7 +18,7 @@ If we put the letter f before our single quotes, we can then enclose our variabl
 
 Lets go to repl and try some things out.
 
-# Escape sequences
+## Escape sequences
 
 What if I were writing some code to play hangman? I would have to print out this guy:
 
@@ -30,7 +30,7 @@ Let's try to do that and see what happens.
 
 It gives us an error. The reason is because the '\' character is a special character called an escape sequence. Escape sequences mark the start of special characters in strings, such as '\n' which is an end line character. A couple escape sequence examples are:
 
-'\\\' which gives us just a normal backslash character
+'\\\\' which gives us just a normal backslash character
 '\n' which gives us an end line
 '\a' which makes a sound
 '\h' which gives a horizontal tab
