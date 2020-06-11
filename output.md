@@ -22,7 +22,7 @@ Lets go to repl and try some things out.
 
 What if I were writing some code to play hangman? I would have to print out this guy:
 
- o                                                                                            
+  o                                                                                           
 /|\                                                                                           
 / \
 
