@@ -22,19 +22,13 @@ Lets go to repl and try some things out.
 
 What if I were writing some code to play hangman? I would have to print out this guy:
 
- o
-/|\
-/ \
+ o                                                                                            /|\                                                                                           / \
 
 Let's try to do that and see what happens.
 
 It gives us an error. The reason is because the '\' character is a special character called an escape sequence. Escape sequences mark the start of special characters in strings, such as '\n' which is an end line character. A couple escape sequence examples are:
 
-'\\\\' which gives us just a normal backslash character
-'\n' which gives us an end line
-'\a' which makes a sound
-'\h' which gives a horizontal tab
-'\v' which gives a vertical tab
+'\\\\' which gives us just a normal backslash character                                       '\n' which gives us an end line                                                               '\a' which makes a sound                                                                      '\h' which gives a horizontal tab                                                             '\v' which gives a vertical tab
 
 Lets try some of these out in repl
 
