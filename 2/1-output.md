@@ -1,4 +1,4 @@
-# Fancy Outputting
+# Output
 
 We've already learned the print statement. Just to jog your memory, it looks like this:
 
@@ -40,7 +40,7 @@ Lets try some of these out in repl
 
 #End of String Character
 
-Lastly, you may notice that the `print()` statement always gives prints and then puts you on a new line. This is because the default last character that is printed is the '\n' character. We can easily change this by doing 
+Lastly, you may notice that the `print()` statement always gives prints and then puts you on a new line. This is because the default last character that is printed is the '\n' character. We can easily change this by doing
 
 `print('hi', end = '')`
 
