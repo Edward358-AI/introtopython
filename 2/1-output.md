@@ -18,7 +18,7 @@ The way to do this is with something called string interpolation. That's just fa
 print(f'Hello, {name}!')
 ```
 
-If we put the letter f before our single quotes, we can then enclose our variables, in this case `name` inside curly brackets.
+If we put the letter f before our single quotes, we can then enclose our variables, in this case `name`, inside curly brackets.
 
 There are a few other ways to do this. For example, you can add strings together:
 
