@@ -10,13 +10,13 @@ In python, the `input()` command returns whatever was typed into the console and
 name = input()
 ```
 
-If your user then typed in Colin, then name would now have the value 'Colin'. You can also put a message inside the input function's parentheses to be displayed to the user. For example, if you wanted to make it clear that you wanted to know someone's name, you could do
+If your user then typed in "Colin," then name would now have the value "Colin". You can also put a message inside the input function's parentheses to be displayed to the user. For example, if you wanted to make it clear that you wanted to know someone's name, you could do
 
 ```python
-name = input('Please enter your name')
+name = input('Please enter your name: ')
 ```
 
-Lets head over to repl and see what this will do.
+Let's head over to repl and see what this will do.
 
 ## Integer input
 
