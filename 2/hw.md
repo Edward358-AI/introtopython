@@ -22,4 +22,4 @@ yes
 
 ## Explanation
 
-The student's grade, 82, is ≥50 and < 95, which is the passing range for Mr. Lee in a good mood.
+The student's grade, 82, is ≥50 and <95, which is the passing range for Mr. Lee in a good mood.
