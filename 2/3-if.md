@@ -29,7 +29,7 @@ if [this is true]:
 ```
 
 But what if I wanted to use multiple `if` statements. What if I wanted something where if the first `if` statement is not true, then it will check a second `if` statement? This is where `elif` comes in.
-# Elif
+## Elif
 
 The `elif` portion of our code looked like this:
 
@@ -53,7 +53,7 @@ What will happen is first the `if` statement will run, checking if x is equal to
 
 You can have as many `elif`'s as you want, but what if you wanted something where if every `if` statement fails, it will do something? This is what an `else` is for.
 
-# Else
+## Else
 
 An else statement goes last in your `if` statements. What it does is if every `if` and `elif` is false and doesn't run anything, then it will always execute whatever is inside the else. Let's take a look at a full `if` statement.
 
