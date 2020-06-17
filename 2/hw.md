@@ -1,6 +1,6 @@
 # Homework
 
-With COVID-19 shutting down schools Mr. Lee has switched grading systems. He now has 3 categories. For any grade `x`, 0 ≤ `x` < 60 is a fail, 60 ≤ x < 95 is a pass, and 95 ≤ x ≤ 100 is a distinction. However, sometimes Mr. Lee is in a good mood and will pass a student if his grade is ≥50 and < 95. Given a student's grade and if Mr. Lee is in a good mood, determine if the student passed without distinction.
+With COVID-19 shutting down schools Mr. Lee has switched grading systems. He now has 3 categories. For any grade `x`, 0 ≤ `x` < 60 is a fail, 60 ≤ `x` < 95 is a pass, and 95 ≤ `x` ≤ 100 is a distinction. However, sometimes Mr. Lee is in a good mood and will pass a student if his grade is ≥50 and <95. Given a student's grade and if Mr. Lee is in a good mood, determine if the student passed without distinction.
 
 ## Input Format
 
@@ -13,6 +13,7 @@ Print either 'yes' for the student passing without distinction or 'no' for the s
 ## Sample Input
 
 82
+
 1
 
 ## Sample Output
