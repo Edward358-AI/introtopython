@@ -69,4 +69,6 @@ else:
 
 We've already seen the `if` and `elif` parts before, and we know since x is not equal to 2 or 3, neither one of those statements will execute. Thats means that the `else` statement will run because neither the `if` statement nor the `elif` statement did. 
 
+Be careful while writing `if` statements! While you can have as many `elif`s as you want, you can only have one `if` and one `else`.  
+
 Now, knowing all of this, what do you think this code will do once it's run?  
