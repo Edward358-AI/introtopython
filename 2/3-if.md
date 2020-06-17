@@ -1,4 +1,4 @@
-# If Statements
+# Booleans and If Statements
 
 `if` statements are a very important part of programming, and you will use them in almost all of your code. A basic `if` statement block will look something like this:
 
@@ -8,7 +8,13 @@ if x == 2:
     print('what!')
 ```
 
-Let's look at exactly what this code does
+Let's look at exactly what this code does.
+
+## Booleans
+
+A boolean is just a fancy term for true or false. In Python, `True` and `False` are keywords. There are also many expressions that evaluate to either True or False, possibly involving operators such as greater than, equal to, less than, etc. Let's test some of these out in repl.
+
+Notice that the equal to operator requires two equals. Using one equal sign is for setting a variable, while two is for comparing things.
 
 ## If
 
@@ -20,8 +26,8 @@ if x == 2:
 ```
 
 Lets look at it part by part. In the first line, we have `if x == 2:`. What this is doing is checking if the value of x is equal to 2. The reason we use two equal signs instead of one is because one equal sign is for assigning values. If we did used `if x = 2:`, then our code would try to assign x's value equal to 2 instead of checking whether or not x's value is equal to 2.
-The part after our `if x == 2:` is `print('what!')`. What this does is if x is indeed equal to 2, then it will print 'what!'. 
-So essentially what the `if` statement is doing is saying 
+The part after our `if x == 2:` is `print('what!')`. What this does is if x is indeed equal to 2, then it will print 'what!'.
+So essentially what the `if` statement is doing is saying
 
 ```python
 if [this is true]:
@@ -36,7 +42,7 @@ The `elif` portion of our code looked like this:
 ```python
 elif x == 3:
     print('wot')
-``` 
+```
 
 This is very similar to our `if` statement. In fact, it basically does the same thing with one small change. `elif` statements must come after `if` statements, because they are essentially saying "if the `if` statement is not true, then run me." Let's look at the full flow of our `if` statement including the `elif`.
 
@@ -67,8 +73,22 @@ else:
     print('ok')
 ```
 
-We've already seen the `if` and `elif` parts before, and we know since x is not equal to 2 or 3, neither one of those statements will execute. Thats means that the `else` statement will run because neither the `if` statement nor the `elif` statement did. 
+We've already seen the `if` and `elif` parts before, and we know since x is not equal to 2 or 3, neither one of those statements will execute. Thats means that the `else` statement will run because neither the `if` statement nor the `elif` statement did.
 
 Be careful while writing `if` statements! While you can have as many `elif`s as you want, you can only have one `if` and one `else`.  
 
-Now, knowing all of this, what do you think this code will do once it's run?  
+Now, knowing all of this, what do you think this code will do once it's run?
+
+## Nesting
+
+Nesting if statements is just putting if statements inside of if statements. Here's an example.
+
+```python
+name = 'Donald Duck'
+age = 54
+if name == 'Donald Duck':
+    if age > 50:
+        print('That\'s impossible, ducks can\'t go over 50 years old!')
+    else:
+        print(f'Donald Duck is {age} years old.') 
+```
