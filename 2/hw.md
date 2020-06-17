@@ -4,7 +4,7 @@ With COVID-19 shutting down schools, Mr. Lee has switched grading systems. He no
 
 ## Input Format
 
-The first line will contain one number which is the student's grade. The next line will contain a number either 0 or 1, 0 for Mr. Lee not being in a good mood and 1 for Mr. Lee being in a good mood.
+There will be one line of input, containing two numbers. The first number is the student's grade. The second number will either be 0 or 1, 0 for Mr. Lee not being in a good mood, and 1 for Mr. Lee being in a good mood.
 
 ## Output Format
 
