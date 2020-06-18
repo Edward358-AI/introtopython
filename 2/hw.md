@@ -12,12 +12,16 @@ Print either 'yes' for the student passing without distinction, 'no' for the stu
 
 ## Sample Input
 
+```
 82
 1
+```
 
 ## Sample Output
 
+```
 yes
+```
 
 ## Explanation
 
